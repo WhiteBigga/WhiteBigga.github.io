@@ -1,0 +1,722 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&family=Merienda+One&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+    height: 100%;
+    min-width: 1920px;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1920px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #EDFBF9;
+}
+
+/*Первая секция*/
+
+.heroSection {
+    width: 100%;
+    height: 20.57%;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    width: 100%;
+    height: 10.88%;
+    background: #FFFFFF;
+    display: flex;
+	padding: 1%;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+.logo {
+    width: 9%;
+    height: 100%;
+    margin-left: 5%;
+}
+@keyframes round {
+    0% {
+        border-radius: 2px;
+    }
+    100% {
+        border-radius: 30px;
+    }
+}
+.navHome {
+    width: 6.04%;
+    height: 3.93%;
+    color: #1A7F72;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Heebo', sans-serif;
+}
+.navOther {
+    min-width: 10%;
+    height: 3.93%;;
+    color: black;
+    font-style: normal;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+}
+.navServices {
+    min-width: 10%;
+    height: 3.93%;;
+    margin-right: 5%;
+    color: black;
+    font-style: normal;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+}
+.background1 {
+    display: flex;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(illustrations/BGvector.jpg);
+    background-position: center center;
+    margin-top: -4%;
+    z-index: 0;
+}
+.mainText {
+    width: 39.479%;
+    height: 14.73%;
+    margin-top: 9%;
+    font-family: 'Merienda One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 68px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.getStart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17%;
+    height: 9%;
+    margin-top: 5%;
+    background: linear-gradient(180deg, #259385 0%, #159685 100%);
+    box-shadow: 0px 20px 40px rgba(21, 113, 101, 0.2);
+    border-radius: 50px;
+
+    animation-name: "round";
+    animation-duration: 2.5s;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+    animation-play-state: running;
+}
+.getStartText {
+    font-family: 'Heebo';
+	font-style: normal;
+	font-weight: bold;
+    font-size: 30px;
+    line-height: 230%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.lady {
+    margin-top: 5%;
+}
+
+/*Вторая секция*/
+
+.musicSection {
+    width: 100%;
+    height: 18.17868%;
+    padding-top: 5.4%;
+    padding-bottom: 5.4%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(illustrations/background21.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    justify-content: center;
+    align-items: center;
+}
+.mainText2 {
+    width: 28.125%;
+    height: 6.818%;
+    /*margin-top: 9%;*/
+    font-family: 'Merienda One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 130%;
+    text-align: center;
+    color: black;
+}
+.block2 {
+    width: 84.375%;
+    height: 64.29924%;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.sound {
+    width: 42%;
+    height: 81%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.womenSvg {
+    width: 42.9629%;
+    height: 100%;
+}
+.soundBlock {
+    display: flex;
+    width: 98%;
+    height: 158px;
+    background-image: url(illustrations/soundSVG5.svg);
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 15px;
+}
+.soundBlock2 {
+    display: flex;
+    width: 100%;
+    height: 158px;
+    background-image: url(illustrations/soundSVG5.svg);
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    margin-top: 7%;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 15px;
+}
+.musicText1 {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 47px;
+    color: rgba(39, 39, 39, 0.8);
+}
+.musicText2 {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.musicTextBlock {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 57.8947%;
+    margin-left: 6.15%;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+.playMusic {
+    width: 15%;
+    margin-right: 30px;
+    margin-top: -2.4%;
+    filter: drop-shadow(0px 25px 30px rgba(179, 228, 221, 0.3)) drop-shadow(0px 9px 24px rgba(26, 127, 114, 0.23));
+}
+
+/*Третья секция*/
+
+.section3 {
+    width: 100%;
+    height: 1393px;
+    padding-top: 9.5%;
+    padding-bottom: 9.5%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(illustrations/background32.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mainText3 {
+    width: 32.3%;
+    height: 5.17%;
+    font-family: 'Merienda One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 130%;
+    text-align: center;
+    color: black;
+    margin-bottom: 121px;
+}
+.tips {
+    display: flex;
+    justify-content: space-between;
+    height: 57.43%;
+    width: 87.6%;
+    flex-direction: row;
+}
+.tipsBlock {
+    width: 35.6%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tip {
+    height: 35%;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(270deg, #C3EEE8 26.37%, rgba(195, 226, 222, 0.75) 63.87%, rgba(231, 243, 242, 0.4) 103.6%);
+    border-radius: 15px;
+    margin-top: 4%;
+}
+.tip2 {
+    height: 35%;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    margin-top: 4%;
+    background: linear-gradient(90deg, #C3EEE8 29.17%, rgba(195, 226, 222, 0.75) 65.1%, rgba(231, 243, 242, 0.4) 100%);
+}
+.relaxText1 {
+    margin-right: 5.00834%;
+    margin-bottom: 20px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 47px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.8);
+}
+.relaxText2 {
+    margin-right: 5.00834%;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.5);
+}
+.relaxText3 {
+    margin-left: 5.00834%;
+    margin-bottom: 20px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 47px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.8);
+}
+.relaxText4 {
+    margin-left: 5.00834%;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/*Четвертая секция*/
+
+.transformSection {
+    width: 100%;
+    height: 28.253043%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(illustrations/background42.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    align-items: center;
+    padding-top: 6.0776%;
+    padding-bottom: 102px;
+}
+.mainText4 {
+    width: 30.10417%;
+    font-family: 'Merienda One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 130%;
+    text-align: center;
+    color: black;
+}
+.block41 {
+    width: 79.17%;
+    height: 33.6700337%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 7.35392432%;
+}
+.block42 {
+    width: 79.17%;
+    height: 33.6700337%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.16171224%;
+}
+.twistedSVG {
+    display: flex;
+    width: 36.62239584%;
+}
+.learnBlock {
+    display: flex;
+    width: 40.723684%;
+    height: 71.00456%;
+    flex-direction: column;
+}
+.learnHeader {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 47px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.learnInfo {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    display: flex;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 5%;
+}
+.learnMore {
+    background: linear-gradient(180deg, #259385 0%, #159685 100%);
+    box-shadow: 0px 13px 28px rgba(26, 127, 114, 0.2);
+    border-radius: 30px;
+    width: 48%;
+    height: 17%;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 230%;
+    color: #FFFFFF;
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Футер*/
+
+.footerSection {
+    width: 100%;
+    height: 8.4347%;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(illustrations/background5.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    align-items: center;
+}
+.logo2 {
+    width: 9%;
+    margin-top: 113px;
+}
+.footerNav {
+    width: 780px;
+    height: 43px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 41px;
+    color: #000000;
+}
+.footerIcons {
+    width: 225px;
+    height: 55px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.icons {
+    height: 100%;
+}
+.line {
+    width: 2px;
+    height: 30px;
+    background: black;
+}
+
+/*В первой секции на телефоне*/
+
+.burgerMenu {
+    width: 90px;
+    height: 85px;
+    display: none;
+    margin-right: 5%;
+}
+
+/*Адаптация*/
+
+@media (min-width: 1442px) {
+    .musicTextBlock {
+        margin-top: 5%;
+        margin-bottom: 6%;
+    }
+}
+@media (max-width: 480px) {
+    .block2,
+    .block41,
+    .block42 {
+        flex-direction: column;
+    }
+    .block42 {
+        margin-top: 6.161712%;
+    }
+    .logo {
+        width: 13%;
+    }
+    .logo2 {
+        width: 13%;
+    }
+    .tips {
+        width: 90%;
+        height: 90%;
+        margin-bottom: 2%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    .twistedSVG {
+        width: 75%;
+    }
+    .womenSvg {
+        width: 60%;
+    }
+	.tip,
+    .tip2 {
+        height: 45%;
+    }
+    .container {
+        max-width: 1024px;
+    }
+    body {
+        min-width: 1024px;
+    }
+    .tipsBlock {
+        width: 41%
+    }
+    .learnBlock {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    #learnBlock1forMobile {
+        margin-top: 25px;
+    }
+    #learnBlock2forMobile {
+        margin-top: 42px;
+    }
+    .block42 img:nth-of-type(1) {
+        order: -1;
+    }
+    .learnInfo {
+        font-size: 40px;
+    }
+    .learnHeader {
+        font-size: 40px;
+    }
+    .relaxText2,
+    .relaxText4 {
+        font-size: 40px;
+		color: rgba(0, 0, 0, 0.6);
+    }
+	.relaxText1,
+    .relaxText3 {
+        font-weight: 600;
+		font-size: 40px;
+    }
+    .sound {
+        width: 74%;
+    }
+    .musicText2 {
+        font-size: 28px;
+        color: #0f0f0f;
+    }
+    .learnMore {
+        font-size: 44px;
+		width: 60%;
+		border-radius: 50px;
+    }
+    .burgerMenu {
+        display: initial;
+    }
+    .navOther,
+    .navServices {
+        display: none;
+    }
+    .navHome {
+        display: none;
+    }
+	.footerNav {
+		font-size: 38px;
+		width: 900px;
+	}
+	.line {
+		display: none;
+	}
+	.getStart {
+		width: 50%;
+		border-radius: 73px;
+	}
+	.getStartText {
+		font-size: 55px;
+	}
+	.playMusic {
+		width: 24%;
+		margin-top: -1.4%;
+	}
+	.musicTextBlock {
+		width: 60%;
+	}
+	.musicText1,
+	.musicText2 {
+		font-size: 38px;
+	}
+	.mainText2 {
+		width: 56%;
+	}
+	.mainText4 {
+		width: 60%;
+	}
+	.mainText3 {
+		margin-bottom: 70px;
+        width: 63.3%;
+        height: 0.17%;
+	}
+	.mainText {
+		width: 75%;
+	}
+    .footerIcons {
+        width: 300px;
+        height: 70px;
+        margin-top: 40px;
+    }
+    #deleteOnMobile1 {
+        display: none;
+    }
+    #deleteOnMobile2 {
+        display: none;
+    }
+}
+@media (min-width: 481px) and (max-width: 800px) {
+    .relaxText2,
+    .relaxText4 {
+        font-size: 34px;
+        color: #272727;
+    }
+    .relaxText1,
+    .relaxText3 {
+        font-size: 34px;
+    }
+    .navOther,
+    .navServices {
+        font-size: 38px;
+    }
+    .navHome {
+        font-size: 40px;
+    }
+	.tipsBlock {
+		width: 43.6%;
+	}
+}
+@media (min-width: 641px) and (max-width: 1200px) {
+	.learnInfo {
+        font-size: 32px;
+    }
+	.learnMore {
+        font-size: 30px;
+    }
+	.footerNav {
+		font-size: 34px;
+		width: 850px;
+	}
+    .tips {
+        height: 70%;
+    }
+}
+@media (min-width: 481px) and (max-width: 640px) {
+	.learnInfo {
+        font-size: 40px;
+    }
+	.learnMore {
+        font-size: 34px;
+    }
+	.relaxText2,
+    .relaxText4 {
+        font-size: 38px;
+    }
+	.footerNav {
+		font-size: 36px;
+		width: 880px;
+	}
+    .tips {
+        height: 80%;
+    }
+	.twistedSVG {
+        width: 46%;
+    }
+}
+@media (min-width: 801px) and (max-width: 1200px) {
+    .relaxText2,
+    .relaxText4 {
+        font-size: 30px;
+        color: #272727;
+    }
+}
+@media (min-width: 481px) and (max-width: 1200px) {
+	.musicText2 {
+		font-size: 42px;
+	}
+	.musicText1 {
+		font-size: 40px;
+	}
+	.musicTextBlock {
+		width: 60%;
+	}
+	.getStartText {
+		font-size: 38px;
+	}
+}
